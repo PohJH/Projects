@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+<script type="text/javascript" src="bsls-presentation.js"></script>
+<!--js file -->
+
+<link rel="stylesheet" href="bsls-ui.css">
+<!--css file -->
+
+<title>Learning Tool(ver1)</title>
+
+</head>
+
+<body>
+
+<h1 class = "heading">Learning Tool(ver1)
+</br>
+<hr/>
+</h1>
+
+
+<h2 class = "row">Number of Column
+      <input type="text" id="column" value=3 ></br></br>
+<!--column text -->
+      
+
+    Number of Rows
+      <input type="text" id="row" value=3>
+<!--row text -->
+<hr/>
+</h2>
+
+
+<h2 class= "info">Enter The Character You Want ^__^&nbsp; &nbsp; 
+      <input type="text" id="cellData" >
+      </br></br>
+
+
+      The Height of Table
+      <input type="text" id="height"value=10 >
+      </br></br>
+
+
+      The Width of Table
+      <input type="text" id="width"value=10>
+      </br></br>
+<!--cell data,width,height text -->
+      Background Color
+
+  <select id="color"> 
+       <option value="WHITE">white  </option>
+       <option value="BLUE"  >blue  </option>    
+       <option value="RED"   >red   </option>    
+       <option value="BLACK" >black </option>         
+       <option value="GREEN">green  </option>
+       <option value="YELLOW">yellow</option>
+       <option value="PURPLE">purple</option>    
+       <option value="CYAN" >cyan   </option>    
+       <option value="PINK" >pink   </option>    
+       <option value="ORANGE">orange</option>    
+       
+  </select>
+  </br>
+  <hr/>
+<!--select form -->
+</h2>
+
+<button onClick= "generate()">Generate Table</button>
+&nbsp; &nbsp; &nbsp;
+<!--generate table -->
+
+<button onClick= "deleteTable()" >Clear Table</button>
+<!--delete table -->
+
+<hr/>
+
+</p>
+
+<p id=generatedTable> </p>
+
+<hr/>
+
+</br>
+<img src ="welldone2.gif">
+<p class = "image">
+
+</p>
+</body>
+
+</html>
